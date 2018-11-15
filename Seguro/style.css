@@ -1,12 +1,15 @@
+/* Supuestamente creando el modal*/
+
 .part1{
     width: 99%;
 }
 
 right{
     float:right;
-    margin-top:11px;
+    margin-top:14px;
     margin-right: 14px;
-    font-size: 13px;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
 }
 header.container-fluid{
     background-color: rgba(50,158,204,1);
@@ -163,13 +166,60 @@ html body section.main div.container-fluid.mainSection div div.lema h6{
     margin-bottom: -85px;
     margin-top: 20px;
 }
-li, ul{
+html body section.main div.container-fluid.mainSection div div.formDiv.d-none.d-xl-block form ul li{
     list-style-type: none;
-}
-li{
     margin-top: 12px;
     margin-bottom: 12px;
 }
+html body.modal-open div#exampleModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body ul li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    list-style-type: none;
+    font-family: roboto;
+}
+#anotherModal > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p{
+    color: #8c8c8c;
+    font-family: Roboto,sans-serif;
+}
+#anotherModal > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul{
+    color: #8c8c8c;
+    font-family: Roboto,sans-serif;
+}
+html body.modal-open div#anotherModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body ul li p a{
+    color: #222;
+    
+}
+html body.modal-open div#anotherModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body p a{
+    color: #222;
+}
+html body.modal-open div#theLastModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body p{
+    color: #8c8c8c;
+    font-family: Roboto,sans-serif;
+}
+html body.modal-open div#theLastModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body ul{
+    color: #8c8c8c;
+    font-family: Roboto,sans-serif;
+}
+html body.modal-open div#theLastModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body p a{
+    color: #222;
+
+}
+
+
+html body.modal-open div#exampleModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body ul.markMe li{
+    list-style-type: circle;
+    font-family: roboto;
+}
+html body.modal-open div#exampleModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body p{
+    font-family: roboto;
+}
+strong{
+    font-family: roboto;
+}
+.modal-content{
+   width: 1600px;
+}
+
 .formDiv{
     min-width: 300px;
     margin-left:845px;
