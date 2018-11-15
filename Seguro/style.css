@@ -170,7 +170,7 @@ html body section.main div.container-fluid.mainSection div.div3{
     
 }
 /* ALL AT SMALL BY QUERIES*/
-@media (max-width:768px){
+@media (max-width:760px){
     html body section.main div.container-fluid.mainSection div div.lema h6{
         margin-left: -190px;
     }
@@ -183,9 +183,16 @@ html body section.main div.container-fluid.mainSection div.div3{
     html body section.main div.container-fluid.mainSection div.row div.red.d-block.d-sm-none.col-6{
         transform: scale(0.8);
     }
-  
+    
 
 }
+@media screen and (max-width:550px){
+    html body section.main{
+        background-image:url("fondoxs.jpg");
+      
+    }
+}
+
 
 html body section.main div.container-fluid.mainSection div div.lema h6 span{
     font-size: 25px;

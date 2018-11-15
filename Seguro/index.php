@@ -21,7 +21,7 @@ $res = Leadsolution::handle('http://leadtowin.afiliasolution.com/leads');
 
     <style type="text/css">
         section.main{
-            background:url("fondo.jpg");
+            background-image:url("fondo.jpg");
             background-size: 100% 100%;       /* For flexibility */
             height:746px;
             
@@ -249,18 +249,6 @@ $res = Leadsolution::handle('http://leadtowin.afiliasolution.com/leads');
            
            <!-- Last viewport; XS -->
             <div class='row'>
-
-                    <div class='green d-block d-sm-none col-4'>
-                            <img class='verdemd'
-                                src="img/verde.jpg"
-                                alt=""
-                                data-ww="['300px','250px','250px','200px']" data-hh="['213px','177px','177px','142px']"
-                                data-no-retina=""
-                                style="width: 199.424px; height: 141.591px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="375" height="266">
-                        <!-- Azul medium screen-->
-                        </div>
-
-                        <div class='d-block d-sm-none col-2'></div>
                         <div class='blue d-block d-sm-none col-4'>
                              <img class='azulmd' src="img/azul.png"
                                   alt="" data-ww="['253px','196px','255px','203px']"
@@ -268,31 +256,46 @@ $res = Leadsolution::handle('http://leadtowin.afiliasolution.com/leads');
                                   data-no-retina=""
                                  style="width: 168.181px; height: 123.643px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="366" height="264">
                         </div>
+
+                        <div class='green d-block d-sm-none col-4'>
+                            <img class='verdemd'
+                                src="img/verde.jpg"
+                                alt=""
+                                data-ww="['300px','250px','250px','200px']" data-hh="['213px','177px','177px','142px']"
+                                data-no-retina=""
+                                style="width: 199.424px; height: 141.591px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="375" height="266">
+                        
+                        </div>
+                        
+                        <div class='d-block d-sm-none col-2'></div>
+                       
                         <!--rojo at medium screen-->
                         <div class='d-block d-sm-none col-2'></div>
 
 
             </div>
             <div class='row'>
-                <div class='red  d-block d-sm-none col-6'>
+                
+                <div class='d-block d-sm-none col-6'>
+                        
+                </div>
+            <div class='red  d-block d-sm-none col-6' style='margin-top:-25px; margin-bottom:20px;'>
                     <img class='rojomd' src="img/rojo.png"
                     alt="" data-ww="['250px','199px','250px','200px']"
                     data-hh="['180px','144','180','144px']" data-no-retina=""
                     style="width: 166.187px; height: 119.654px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="375" height="266">
                 </div>
-                <div class='d-block d-sm-none col-6'>
-                        <p style='text-align: right'>Sólo para nuevas contrataciones</p>
-                </div>
-
             </div>
 
 
             <div class='row'>
 
-             <!-- Button that triggers modal Im focused on-->
-
-                            <input class='d-block d-sm-none col-12' data-toggle="modal" data-target="#finalModal"  id='buttonLike' type='submit' value='¡Te llaman gratis!'></li>
-
+             <!-- Button that triggers modal Im focused on-->  
+            <div class='d-block d-sm-none col-12'>
+                        <div style='height:142px;'></div>
+                        <div class="tp-caption   tp-resizeme" id="slide-1-layer-10" data-x="['left','left','left','center']" data-hoffset="['1192','1042','825','0']" data-y="['top','top','top','top']" data-voffset="['570','52','312','522']" data-fontsize="['20','15','18','18']" data-fontweight="['400','400','400','700']" data-color="['rgb(150,150,150)','rgb(150,150,150)','rgb(56,56,56)','rgb(255,255,255)']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['off','off','off','on']" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:1720,&quot;speed&quot;:720,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; white-space: nowrap; font-size: 9px; line-height: 10px; font-weight: 400; color: rgb(150, 150, 150); letter-spacing: 0px; font-family: Open Sans; background-color: rgba(99, 99, 99, 0.51); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform-origin: 50% 50% 0px; transform: translate3d(0px, 0px, 0px);"><p style='text-align:center; font-size:14px; color:white;'>SÓLO PARA NUEVAS CONTRATACIONES</p></div>
+                        <input style='width:100%' data-toggle="modal" data-target="#finalModal"  id='buttonLike' type='submit' value='¡Te llamamos gratis!'></li>
+            </div>
 
 
             </div>
@@ -363,7 +366,7 @@ $res = Leadsolution::handle('http://leadtowin.afiliasolution.com/leads');
                 </div>
             </div>
     </footer>
-    
+
     <!-- Modal CONDICIONES DE LA PROMOCION-->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
