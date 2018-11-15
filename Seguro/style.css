@@ -188,9 +188,15 @@ html body section.main div.container-fluid.mainSection div.div3{
     
 
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:450px){
     html body section.main{
         background-image:url("fondoxs.jpg");
+      
+    }
+}
+@media screen and (min-width:451px) and (max-width:766px){
+    html body section.main{
+        background-image:url("fondoMedio.jpg");
       
     }
 }
