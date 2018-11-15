@@ -204,6 +204,30 @@ html body.modal-open div#theLastModal.modal.fade.show div.modal-dialog div.modal
     color: #222;
 
 }
+html body section.main div.container-fluid.mainSection div.row ul.d-none.d-sm-block.d-lg-none.col-sm-6 li{
+    list-style-type: none;
+}
+html body section.main div.container-fluid.mainSection div.row.div1md div.anotherForm.d-none.d-lg-block.d-xl-none.col-lg-6 form ul li{
+    list-style-type: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* RESPONSIVE MODAL*/
+html body.modal-open section.main div.container-fluid.mainSection div#finalModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body form{
+    background: rgba(50, 158, 204, 0.71);
+    padding: 20px 20px 20px 20px !important;
+}
+html body.modal-open section.main div.container-fluid.mainSection div#finalModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body form ul li{
+    
+    list-style-type: none;
+    font-family: roboto;
+}
+html body.modal-open section.main div.container-fluid.mainSection div#finalModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body form ul li input{
+    width:100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/**/
 
 
 html body.modal-open div#exampleModal.modal.fade.show div.modal-dialog div.modal-content div.modal-body ul.markMe li{
