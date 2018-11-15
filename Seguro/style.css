@@ -83,7 +83,7 @@ html body section.main div.container-fluid.mainSection div.div1{
 html body section.main div.container-fluid.mainSection div.div2{
     width:260px;
     margin-left: 570px;
-    margin-top: -180px;
+    margin-top: -120px;
     animation-name: inOut;
     animation-duration: 1.2s;
     animation-direction: alternate;
@@ -104,7 +104,7 @@ html body section.main div.container-fluid.mainSection div.row div.blue.d-none.d
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
-html body section.main div.container-fluid.mainSection div.row div.blue.d-block.d-sm-none.col-3 img.azulmd{
+html body section.main div.container-fluid.mainSection div.row div.blue.d-block.d-sm-none.col-4 img.azulmd{
     animation-name: inOut;
     animation-duration: 1.2s;
     animation-direction: alternate;
@@ -124,7 +124,7 @@ html body section.main div.container-fluid.mainSection div.div2 img.azul:hover{
 /* ROJO */
 html body section.main div.container-fluid.mainSection div.div3{
     width:260px;
-    margin-left: 592px;
+    margin-left: 632px;
     margin-top: 120px;
     margin-bottom: -640px;
   
@@ -143,12 +143,25 @@ html body section.main div.container-fluid.mainSection div.div3{
     html body section.main div.container-fluid.mainSection div div.lema h6{
         margin-left: -190px;
     }
+    html body section.main div.container-fluid.mainSection div.row div.d-block.d-sm-none.col-6 input#buttonLike{
+        width:10px;
+    }
 }
 /* ALL AT SMALL BY QUERIES*/
 @media (max-width:768px){
     html body section.main div.container-fluid.mainSection div div.lema h6{
         margin-left: -190px;
     }
+    html body section.main div.container-fluid.mainSection div.row div.green.d-block.d-sm-none.col-4{
+        transform: scale(0.6);
+    }
+    html body section.main div.container-fluid.mainSection div.row div.blue.d-block.d-sm-none.col-4{
+        transform: scale(0.6);
+    }
+    html body section.main div.container-fluid.mainSection div.row div.red.d-block.d-sm-none.col-6{
+        transform: scale(0.8);
+    }
+
 }
 
 html body section.main div.container-fluid.mainSection div div.lema h6 span{
@@ -165,6 +178,9 @@ html body section.main div.container-fluid.mainSection div div.lema h6{
     margin-left: 215px;
     margin-bottom: -85px;
     margin-top: 20px;
+}
+html body section.main div.container-fluid.mainSection div div.formDiv.d-none.d-xl-block form{
+    margin-left: 45px;
 }
 html body section.main div.container-fluid.mainSection div div.formDiv.d-none.d-xl-block form ul li{
     list-style-type: none;
