@@ -57,7 +57,9 @@ margin-bottom: 35px;
 margin-top:20px;
 
 }
-
+html body section.main div.container-fluid.mainSection div.row div.d-none.d-sm-block.d-lg-none.col-sm-6 ul li{
+    list-style-type: none;
+}
 
 .foot{
     height:220px;

@@ -142,14 +142,18 @@ $res = Leadsolution::handle('http://leadtowin.afiliasolution.com/leads');
             </div>
 
             <!-- One viewport more; SMALL-->
-            <div class='row'>
+            
+            <div style='margin-top:-30px' class='row'>
+
                     <div class='d-none d-sm-block d-lg-none col-sm-3'></div>
 
-                    <div class='contratSM d-none d-sm-block d-lg-none col-sm-6'><p style='text-align: right'>Sólo para nuevas contrataciones</p></div>
-                    <div class='d-none d-sm-block d-lg-none col-sm-3'></div>
-
-            </div>
-            <div class='row'>
+                    <div class='blue d-none d-sm-block d-lg-none col-sm-3'>
+                             <img class='azulmd' src="img/azul.png"
+                                  alt="" data-ww="['253px','196px','255px','203px']"
+                                  data-hh="['186px','144px','187px','149px']"
+                                  data-no-retina=""
+                                 style="width: 168.181px; height: 123.643px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="366" height="264">
+                    </div>
 
                     <div class='green d-none d-sm-block d-lg-none col-sm-3'>
                             <img class='verdemd'
@@ -159,31 +163,30 @@ $res = Leadsolution::handle('http://leadtowin.afiliasolution.com/leads');
                                 data-no-retina=""
                                 style="width: 199.424px; height: 141.591px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="375" height="266">
                         <!-- Azul medium screen-->
-                        </div>
-                        <div class='d-none d-sm-block d-lg-none col-sm-1'></div>
-                        <div class='blue d-none d-sm-block d-lg-none col-sm-3'>
-                             <img class='azulmd' src="img/azul.png"
-                                  alt="" data-ww="['253px','196px','255px','203px']"
-                                  data-hh="['186px','144px','187px','149px']"
-                                  data-no-retina=""
-                                 style="width: 168.181px; height: 123.643px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="366" height="264">
-                        </div>
+                    </div>
+
+                    
                         <!--rojo at medium screen-->
-                        <div class='d-none d-sm-block d-lg-none col-sm-1'></div>
-                        <div class='red d-none d-sm-block d-lg-none col-sm-3'>
+                        
+                        <div style='margin-top:30px' class='red d-none d-sm-block d-lg-none col-sm-3'>
                             <img class='rojomd' src="img/rojo.png"
                             alt="" data-ww="['250px','199px','250px','200px']"
                             data-hh="['180px','144','180','144px']" data-no-retina=""
                             style="width: 166.187px; height: 119.654px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 8px;" width="375" height="266">
                         </div>
-                        <div class='d-none d-sm-block d-lg-none col-sm-1'></div>
+                        
             </div>
+            
+            
             <div style='margin-top:78px; margin-bottom: -100px;' class='row'>
-                <div class='d-none d-sm-block d-lg-none col-sm-4'></div>
-                <ul class = 'd-none d-sm-block d-lg-none col-sm-6'>
-                        <li><input  data-toggle="modal" data-target="#finalModal" id='buttonLike' type='submit' value='¡Te llamamos gratis!'></li>
-                </ul>
-                <div class='d-none d-sm-block d-lg-none col-sm-2'></div>
+                <div class='d-none d-sm-block d-lg-none col-sm-6'></div>
+                <div class = 'd-none d-sm-block d-lg-none col-sm-6'>
+                    
+                    <ul>
+                            <p style='text-align: right'>Sólo para nuevas contrataciones</p>
+                            <li><input  data-toggle="modal" data-target="#finalModal" id='buttonLike' type='submit' value='¡Te llamamos gratis!'></li>
+                    </ul>
+                </div>
             </div>
 
 
