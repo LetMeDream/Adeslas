@@ -1,4 +1,25 @@
-/* Supuestamente creando el modal*/
+/* Modal inside modal dissaster*/
+
+/* EN BLANCO PORQUE FUE RESUELTO CON LA MAGIA DE JS*/
+.thanks_wrap{
+    height: 116px;
+   
+    
+}
+.imgHolder{
+    min-width: 100%;
+}
+.imge{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 45px;
+}
 
 .part1{
     width: 99%;
@@ -146,6 +167,7 @@ html body section.main div.container-fluid.mainSection div.div3{
     html body section.main div.container-fluid.mainSection div.row div.d-block.d-sm-none.col-6 input#buttonLike{
         width:10px;
     }
+    
 }
 /* ALL AT SMALL BY QUERIES*/
 @media (max-width:768px){
@@ -161,6 +183,7 @@ html body section.main div.container-fluid.mainSection div.div3{
     html body section.main div.container-fluid.mainSection div.row div.red.d-block.d-sm-none.col-6{
         transform: scale(0.8);
     }
+  
 
 }
 
