@@ -188,7 +188,7 @@ html body section.main div.container-fluid.mainSection div.div3{
     
 
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:500px){
     html body section.main{
         background-image:url("fondoxs.jpg");
       
