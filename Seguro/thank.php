@@ -30,7 +30,7 @@
     <header class="container-fluid main_menu_area">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class='part1'>
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a><right >Global Market</right>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
             </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
@@ -104,7 +104,7 @@
     <section>
             <div class='container-fluid footer' style='display:table;'>
                 <div class="foot-content clearfix" style='display:table-cell; vertical-align: middle;'>
-                    <div class="foot-text">© Global Market | Agente Exclusivo Adeslas C0124B85540896.<br> <br>
+                    <div class="foot-text">Agente Exclusivo Adeslas.<br> <br>
                     </div>
                 </div>
             </div>
